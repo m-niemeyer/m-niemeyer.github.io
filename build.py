@@ -7,18 +7,21 @@ def get_personal_data():
     github = "m-niemeyer"
     linkedin = "michael-niemeyer"
     bio_text = f"""
-                <p>I am a machine learning and computer vision PhD student in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">AVG group</a> at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Max Planck Insitute for Intelligent Systems</a>.
-                <span style="color: red;">I will finish my PhD at the end of 2022 and I am looking for research scientist positions, preferribly in Germany (Cologne, Stuttgart, Berlin, etc)!</span>
-                <p>
+                <p>I am a research scientist at Google working on 3D computer vision and graphics.</p>
+                <!-- <p>
                     <span style="font-weight: bold;">Research:</span>
                     I am excited about complex problems that can be tackled with learning-based systems. Currently, my research focuses on 3D vision, and I am interested in how machines can infer 3D representations from sparse observations. Further, I am big fan of neural scene representations, \ie, how scenes are best represented in learning-based systems using deep neural networks. 
-                </p>
+                </p> -->
                 <p>
-                    <span style="font-weight: bold;">Bio:</span>
-                    I studied BSc Mathematics at the <a href="http://www.mi.uni-koeln.de/main/index.en.php" target="_blank">University of Cologne</a>, Germany. During my Bachelor studies, I spent one year at the <a href="https://www.ub.edu/web/portal/en/" target="_blank">University of Barcelona</a>, Spain, funded by the ERASMUS program.
-                    Following my interest in computer science, I then moved to Scotland to gain my Master's degree in Advanced Computer Science at the <a href="https://www.st-andrews.ac.uk/computer-science/" target="_blank">University of St Andrews</a>.
-                    In October 2018, I started my PhD in computer vision / machine learning in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">AVG group</a> at the <a href ="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany, under the supervision of <a href="http://cvlibs.net/" target="_blank">Andreas Geiger</a>. 
-                    In 2021 I joined <a href="https://research.google/teams/brain/">Google Brain</a> for an internship and subsequently as a student researcher.
+                    <span style="font-weight: bold;">Bio:</span> 
+                    I was a PhD student at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Max Planck Insitute for Intelligent Systems</a> supervised by <a href="https://www.cvlibs.net/" target="_blank">Andreas Geiger</a>.
+                    During my PhD studies, I joined <a href="https://research.google/teams/brain/">Google Brain</a> for an internship and subsequently as a student researcher.
+                    As an undergraduate student, I received a BSc in Mathematics from the <a href="http://www.mi.uni-koeln.de/main/index.en.php" target="_blank">University of Cologne (Germany)</a> and a MSc from the 
+                    <!-- During my Bachelor studies, I spent one year at the <a href="https://www.ub.edu/web/portal/en/" target="_blank">University of Barcelona</a>, Spain, funded by the ERASMUS program. -->
+                    <!-- Following my interest in computer science, I then moved to Scotland to gain my Master's degree in Advanced Computer Science at the  -->
+                    <a href="https://www.st-andrews.ac.uk/computer-science/" target="_blank">University of St Andrews (UK)</a>.
+                    <!-- In October 2018, I started my PhD in computer vision / machine learning in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">AVG group</a> at the <a href ="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany, under the supervision of <a href="http://cvlibs.net/" target="_blank">Andreas Geiger</a>.  -->
+                    <!-- In 2021 I joined <a href="https://research.google/teams/brain/">Google Brain</a> for an internship and subsequently as a student researcher. -->
                 </p>
                 <p>
                     <span style="font-weight: bold;">Awards:</span>
@@ -27,13 +30,14 @@ def get_personal_data():
                     Our two research projects Occupancy Networks and DVR were selected to be <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">among the top-15 most influencial CVPR papers</a> from 2019 and 2020, respectively.
                     In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
                 </p>
+                <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
                     <a href="https://m-niemeyer.github.io/assets/pdf/CV_Niemeyer_Michael.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:{email}" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://twitter.com/{twitter}" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
+                    <a href="mailto:micniemeyer1@gmail.com" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                    <a href="https://twitter.com/Mi_Niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
                     <a href="https://scholar.google.com/citations?user=v1O7i_0AAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
-                    <a href="https://github.com/{github}" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
-                    <a href="https://www.linkedin.com/in/{linkedin}" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <a href="https://github.com/m-niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/michael-niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                 </p>
     """
     footer = """
@@ -192,7 +196,7 @@ def get_index_html():
                 {bio_text}
             </div>
             <div class="col-md-4" style="">
-                <img src="assets/img/profile.jpg" class="img-thumbnail" alt="Profile picture">
+                <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
             </div>
         </div>
         <div class="row" style="margin-top: 1em;">
