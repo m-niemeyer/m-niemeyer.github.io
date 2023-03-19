@@ -72,6 +72,15 @@ def get_author_dict():
         'Lars Mescheder': 'https://scholar.google.de/citations?user=h2k1gL4AAAAJ&hl=de',
         'Thilo Strauss': 'https://scholar.google.com/citations?user=VlymtLQAAAAJ&hl=en',
         'Sebastian Nowozin': 'http://www.nowozin.net/sebastian/',
+        'Marie-Julie Rakotosaona': 'http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/',
+        'Fabian Manhardt': 'https://campar.in.tum.de/Main/FabianManhardt',
+        'Diego Martin Arroyo': 'https://martinarroyo.net/',
+        'Abhijit Kundu': 'https://abhijitkundu.info/',
+        'Federico Tombari': 'https://www.cs.cit.tum.de/camp/members/senior-research-scientists/federico-tombari/',
+        'Anpei Chen': 'https://apchenstu.github.io/',
+        'Bozidar Antic': 'https://bozidarantic.com/',
+        'Apratim Bhattacharyya': 'https://apratimbhattacharyya18.github.io/',
+        'Siyu Tang': 'https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html'
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
