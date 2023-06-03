@@ -80,7 +80,20 @@ def get_author_dict():
         'Anpei Chen': 'https://apchenstu.github.io/',
         'Bozidar Antic': 'https://bozidarantic.com/',
         'Apratim Bhattacharyya': 'https://apratimbhattacharyya18.github.io/',
-        'Siyu Tang': 'https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html'
+        'Siyu Tang': 'https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html',
+        'Hidenobu Matsuki': 'https://dblp.org/pid/225/4487.html',
+        'Keisuke Tateno': 'https://campar.in.tum.de/Main/KeisukeTateno',
+        'Alessio Tonioni': 'https://alessiotonioni.github.io/',
+        'Christina Tsalicoglou': 'https://scholar.google.ch/citations?user=7D10QQkAAAAJ&hl=en', 
+        'Amit Raj': 'https://amitraj93.github.io/',
+        'Srinivas Kaza': 'https://www.linkedin.com/in/srinivas-kaza-64223b74',
+        'Ben Poole': 'https://poolio.github.io/',
+        'Nataniel Ruiz': 'https://natanielruiz.github.io/',
+        'Shiran Zada': 'https://scholar.google.com/citations?user=I2qheksAAAAJ',
+        'Kfir Aberman': 'https://kfiraberman.github.io/',
+        'Michael Rubinstein': 'http://people.csail.mit.edu/mrub/',
+        'Yuanzhen Li': 'http://people.csail.mit.edu/yzli/',
+        'Varun Jampani': 'https://varunjampani.github.io/'
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
