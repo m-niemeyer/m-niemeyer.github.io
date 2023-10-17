@@ -23,13 +23,6 @@ def get_personal_data():
                     <!-- In October 2018, I started my PhD in computer vision / machine learning in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">AVG group</a> at the <a href ="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany, under the supervision of <a href="http://cvlibs.net/" target="_blank">Andreas Geiger</a>.  -->
                     <!-- In 2021 I joined <a href="https://research.google/teams/brain/">Google Brain</a> for an internship and subsequently as a student researcher. -->
                 </p>
-                <p>
-                    <span style="font-weight: bold;">Awards:</span>
-                    In 2011, I graduated as top of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and was admitted to <a href="https://www.mathematik.de/" target="_blank">the Germany Mathematics Society</a> and <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>. In 2017 I received the Dean's List Award for Academic Excellence for my Master's degree.
-                    During my PhD studies, I was a scholar of <a href="https://imprs.is.mpg.de/" target="_blank">the International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>.
-                    Our two research projects Occupancy Networks and DVR were selected to be <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">among the top-15 most influencial CVPR papers</a> from 2019 and 2020, respectively.
-                    In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
-                </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
                     <a href="https://m-niemeyer.github.io/assets/pdf/CV_Niemeyer_Michael.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
@@ -38,6 +31,14 @@ def get_personal_data():
                     <a href="https://scholar.google.com/citations?user=v1O7i_0AAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/m-niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
                     <a href="https://www.linkedin.com/in/michael-niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
+                    <div id="demo" class="collapse">
+                    <span style="font-weight: bold;">Awards:</span>
+                    In 2011, I graduated as top of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and was admitted to <a href="https://www.mathematik.de/" target="_blank">the Germany Mathematics Society</a> and <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>. In 2017 I received the Dean's List Award for Academic Excellence for my Master's degree.
+                    During my PhD studies, I was a scholar of <a href="https://imprs.is.mpg.de/" target="_blank">the International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>.
+                    Our two research projects Occupancy Networks and DVR were selected to be <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">among the top-15 most influencial CVPR papers</a> from 2019 and 2020, respectively.
+                    In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
+                </div>
                 </p>
     """
     footer = """
@@ -93,7 +94,8 @@ def get_author_dict():
         'Kfir Aberman': 'https://kfiraberman.github.io/',
         'Michael Rubinstein': 'http://people.csail.mit.edu/mrub/',
         'Yuanzhen Li': 'http://people.csail.mit.edu/yzli/',
-        'Varun Jampani': 'https://varunjampani.github.io/'
+        'Varun Jampani': 'https://varunjampani.github.io/',
+        'Francis Engelmann': 'https://francisengelmann.github.io/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
@@ -209,33 +211,39 @@ def get_index_html():
 
 <body>
     <div class="container">
-        <div class="row" style="margin-top: 3em;">
-            <div class="col-sm-12" style="margin-bottom: 1em;">
-            <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">{name[0]}</span> {name[1]}</h3>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row" style="margin-top: 3em;">
+                    <div class="col-sm-12" style="margin-bottom: 1em;">
+                    <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">{name[0]}</span> {name[1]}</h3>
+                    </div>
+                    <br>
+                    <div class="col-md-10" style="">
+                        {bio_text}
+                    </div>
+                    <div class="col-md-2" style="">
+                        <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 1em;">
+                    <div class="col-sm-12" style="">
+                        <h4>Publications</h4>
+                        {pub}
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 3em;">
+                    <div class="col-sm-12" style="">
+                        <h4>Talks</h4>
+                        {talks}
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
+                    {footer}
+                </div>
             </div>
-            <br>
-            <div class="col-md-8" style="">
-                {bio_text}
-            </div>
-            <div class="col-md-4" style="">
-                <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
-            </div>
-        </div>
-        <div class="row" style="margin-top: 1em;">
-            <div class="col-sm-12" style="">
-                <h4>Publications</h4>
-                {pub}
-            </div>
-        </div>
-        <div class="row" style="margin-top: 3em;">
-            <div class="col-sm-12" style="">
-                <h4>Talks</h4>
-                {talks}
-            </div>
-        </div>
-        <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
-            {footer}
-        </div>
+            <div class="col-md-1"></div>
+        </div?
     </div>
 
     <!-- Optional JavaScript -->
