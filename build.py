@@ -87,6 +87,14 @@ def get_author_dict():
         'Yuanzhen Li': 'http://people.csail.mit.edu/yzli/',
         'Varun Jampani': 'https://varunjampani.github.io/',
         'Francis Engelmann': 'https://francisengelmann.github.io/',
+        'Mohamad Shahbazi': 'https://mohamad-shahbazi.github.io/',
+        'Liesbeth Claessens': 'https://asl.ethz.ch/the-lab/people/person-detail.MjY5NDUz.TGlzdC8xNTg0LDEyMDExMzk5Mjg=.html',
+        'Edo Collins': 'https://www.linkedin.com/in/edo-collins/?originalSubdomain=ch',
+        'Luc Van Gool': 'https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html',
+        'Fangjinhua Wang': 'https://fangjinhuawang.github.io/',
+        'Richard Szeliski': 'https://szeliski.org/',
+        'Kunyi Li': 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=6EC78DAA25310FF2',
+        'Nassir Navab': 'https://www.professoren.tum.de/en/navab-nassir',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
