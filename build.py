@@ -95,6 +95,9 @@ def get_author_dict():
         'Richard Szeliski': 'https://szeliski.org/',
         'Kunyi Li': 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=6EC78DAA25310FF2',
         'Nassir Navab': 'https://www.professoren.tum.de/en/navab-nassir',
+        'Rama Gosula': 'https://arvr.google.com/',
+        'John Bates': 'https://arvr.google.com/',
+        'Dominik Kaeser': 'https://scholar.google.com/citations?user=DQ4838YAAAAJ&hl=en',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
