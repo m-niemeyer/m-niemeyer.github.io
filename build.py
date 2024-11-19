@@ -98,6 +98,16 @@ def get_author_dict():
         'Rama Gosula': 'https://arvr.google.com/',
         'John Bates': 'https://arvr.google.com/',
         'Dominik Kaeser': 'https://scholar.google.com/citations?user=DQ4838YAAAAJ&hl=en',
+        'Erik Sandström': 'https://scholar.google.com/citations?user=phiETm4AAAAJ&hl=en',
+        'Luc Van-Gool': 'https://insait.ai/prof-luc-van-gool/',
+        'Martin Oswald': 'https://oswaldm.github.io/',
+        'Fangneng Zhan': 'https://fnzhan.com/',
+        'Hanxue Liang': 'https://scholar.google.com/citations?user=XcxDA14AAAAJ&hl=en',
+        'Yifan Wang': 'https://yifita.netlify.app/',
+        'Adam Kortylewski': 'https://genintel.mpi-inf.mpg.de/',
+        'Cengiz Oztireli': 'https://www.cl.cam.ac.uk/~aco41/',
+        'Gordon Wetzstein': 'https://stanford.edu/~gordonwz/', 
+        'Christian Theobalt': 'https://people.mpi-inf.mpg.de/~theobalt/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
