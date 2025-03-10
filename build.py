@@ -108,6 +108,11 @@ def get_author_dict():
         'Cengiz Oztireli': 'https://www.cl.cam.ac.uk/~aco41/',
         'Gordon Wetzstein': 'https://stanford.edu/~gordonwz/', 
         'Christian Theobalt': 'https://people.mpi-inf.mpg.de/~theobalt/',
+        'Siyun Liang': 'https://siyun-liang.github.io/',
+        'Thomas Wimmer': 'https://wimmerth.github.io/',
+        'Sen Wang': 'https://scholar.google.com/citations?user=OxZ9S6oAAAAJ&hl=en',
+        'Stefano Gasperini': 'https://www.cs.cit.tum.de/camp/members/stefano-gasperini/',
+        'Zeyu Chen': 'https://zeyuuuchen.github.io/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
