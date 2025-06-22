@@ -113,6 +113,13 @@ def get_author_dict():
         'Sen Wang': 'https://scholar.google.com/citations?user=OxZ9S6oAAAAJ&hl=en',
         'Stefano Gasperini': 'https://www.cs.cit.tum.de/camp/members/stefano-gasperini/',
         'Zeyu Chen': 'https://zeyuuuchen.github.io/',
+        'Jonas Kulhanek': 'https://jkulhanek.com/',
+        'Yiming Wang': 'https://scholar.google.com/citations?user=AVOZmU8AAAAJ&hl=en',
+        'Lucy Chai': 'https://scholar.google.com/citations?user=bunnQWQAAAAJ&hl=en',
+        'Xuan Luo': 'https://roxanneluo.github.io/',
+        'Manuel Lagunas': 'https://mlagunas.me/',
+        'Stephen Lombardi': 'https://stephenlombardi.github.io/',
+        'Tiancheng Sun': 'https://www.kevinkingo.com/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
