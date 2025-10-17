@@ -120,6 +120,14 @@ def get_author_dict():
         'Manuel Lagunas': 'https://mlagunas.me/',
         'Stephen Lombardi': 'https://stephenlombardi.github.io/',
         'Tiancheng Sun': 'https://www.kevinkingo.com/',
+        'Tianshi Cao': 'https://scholar.google.com/citations?user=CZ9wBBoAAAAJ&hl=en',
+        'Elena Alegret': 'https://es.linkedin.com/in/elena-alegret',
+        'Maria Parelli': 'https://mparelli.github.io/',
+        'Atakan Topaloglu': 'https://scholar.google.com/citations?user=l9mFndIAAAAJ&hl=en',
+        'Xin Kong': 'https://kxhit.github.io/',
+        'Daniel Watson': 'https://scholar.google.com/citations?user=ve9A9rMAAAAJ&hl=en',
+        'Yannick Strümpler': 'https://scholar.google.com/citations?user=6UwR6EUAAAAJ&hl=de',
+        'Ahmed Tekalp': 'https://mysite.ku.edu.tr/mtekalp/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
